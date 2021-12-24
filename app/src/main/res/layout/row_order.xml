@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="70sp"
+    android:orientation="horizontal"
+    android:padding="16sp">
+
+    <TextView
+        android:id="@+id/count"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:hint="count"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/product"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:hint="product"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+</LinearLayout>

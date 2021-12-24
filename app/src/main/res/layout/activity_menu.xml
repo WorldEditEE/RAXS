@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/primary_block"
+    tools:context=".Menu">
+
+
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="170dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="119dp"
+        android:layout_marginTop="149dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/exit"
+        android:textSize="12sp"
+        app:backgroundTint="@color/primary_block"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.881" />
+
+    <Button
+        android:id="@+id/menu1"
+        android:layout_width="169dp"
+        android:layout_height="56dp"
+        android:text="@string/menu1"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:backgroundTint="@color/primary_block"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo_menu" />
+
+    <Button
+        android:id="@+id/menu4"
+        android:layout_width="169dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/menu4"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:backgroundTint="@color/primary_block"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/menu3" />
+
+    <Button
+        android:id="@+id/menu2"
+        android:layout_width="169dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/menu2"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:backgroundTint="@color/primary_block"
+        app:layout_constraintBottom_toTopOf="@+id/menu3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/menu1" />
+
+    <Button
+        android:id="@+id/menu3"
+        android:layout_width="169dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/menu3"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        app:backgroundTint="@color/primary_block"
+        app:layout_constraintBottom_toTopOf="@+id/menu4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/menu2" />
+
+    <TextView
+        android:id="@+id/logo_menu"
+        android:layout_width="327dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="casual"
+        android:text="@string/logo_menu"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

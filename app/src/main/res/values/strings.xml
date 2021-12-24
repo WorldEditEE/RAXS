@@ -1,0 +1,16 @@
+<resources>
+    <string name="autorization">Авторизация</string>
+
+    <string name="app_name">RAXS</string>
+    <string name="code">Отсканируйте код</string>
+    <string name="ok" translatable="false">Войти</string>
+    <string name="error_input">Чтобы войти, отсканируйте код!</string>
+    <string name="logo_menu">Меню пользователя</string>
+    <string name="menu1">1.Поступления</string>
+    <string name="menu2">2.Перемещения</string>
+    <string name="menu3">3.Инвентаризация </string>
+    <string name="menu4">4.Найти товар</string>
+    <string name="exit">5.Завершить работу</string>
+    <string name="exit_1.1">Выход</string>
+    <string name="apply">Принять</string>
+</resources>
